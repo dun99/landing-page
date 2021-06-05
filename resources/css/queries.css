@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1200px) {
+  .contact-form-item label {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .btn {
+    width: 10em;
+  }
+  .products-section .col {
+    padding: 0;
+  }
+  .about-section .col {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .products-section .row {
+    margin-top: 20px;
+  }
+  .contact-form-item label {
+    margin-bottom: 20px;
+  }
+  .main-nav {
+    margin-right: 0;
+  }
+  .main-nav li{
+    display: none
+  }
+  /* .main-nav li a.icon {
+    float: right;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  } */
+  /* .main-nav.responsive {
+    position: relative;
+  }
+  .main-nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .main-nav.responsive li a {
+    float: none;
+    display: block;
+    text-align: left;
+  } */
+}
+@media only screen and (max-width: 767px) {
+
+  .col {
+    width: 100%;
+  }
+
+  .clubs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5em;
+    margin: 3em;
+  }
+  .club {
+    text-align: center;
+  }
+  blockquote {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .clubs {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5em;
+    margin: 3em;
+  }
+  .club {
+    text-align: center;
+  }
+  .contact-form {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .form-mail {
+    width: 100%;
+    padding: 1em;
+  }
+}
